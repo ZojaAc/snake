@@ -78,16 +78,6 @@ document.body.appendChild(result);
 result.classList.add('result');
 let score = 0;
 result.textContent = `Ваши очки: ${score}`;
-// let input = document.createElement('input');
-// document.body.appendChild(input);
-// input.style.cssText = `
-// margin: auto;
-// margin-top: 40px;
-// font-size: 30px;
-// display: block;
-// `;
-// let score = 0;
-// input.value = `Ваши очки: ${score}`;
 
 // научим змейку двигаться вправо
 function move() {
@@ -142,7 +132,6 @@ function move() {
     createMouse();
     score++;
     result.textContent = `Ваши очки: ${score}`;
-    // input.value = `Ваши очки: ${score}`;
   }
 
   // установим правила до момента создания змейки
